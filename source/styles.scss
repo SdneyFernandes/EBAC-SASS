@@ -1,0 +1,62 @@
+@use './config/reset';
+@use './config/cor_font';
+
+
+body {
+    background-color: cor_font.$background-color;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.menu {
+    display: flex;
+
+    li {
+        font-weight: bold;
+        margin-left: 24px;
+        
+        a {
+            color: cor_font.$menu-link-color;
+            text-decoration: none;
+        }
+    }
+}
+
+section {
+    padding: 56px 0;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1023px) {
+    .container {
+        max-width: 80%;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .products {
+        display: block;
+    }
+
+    .product-item  {
+        margin-bottom: 32px;
+    }
+}

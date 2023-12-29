@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../source/config/reset.scss","../source/config/cor_font.scss","../source/styles.scss"],"names":[],"mappings":"AAEA;EACI;EACA;EACA;EACA,aCJU;;;ACEd;EACI,kBDDe;;;ACInB;EACI;;;AAGJ;EACI;EACA;EACA;;;AAIJ;EACI;;AAEA;EACI;EACA;;AAEA;EACI,ODtBM;ECuBN;;;AAKZ;EACI;;;AAQJ;EACI;IACI;;EAGJ;IACI;IACA;;;AAIR;EACI;IACI;;EAGJ;IACI","file":"styles.css"}
